@@ -7,6 +7,7 @@ AutosRU's management team has asked the data analytics team to review the the ne
 In order to perform this analysis, the team took metrics from the prototypes to determine which variables provide a non-random variance to the MPG values. These variables are the vehicle length, weight, spoiler angle, ground clearance and All Wheel Drive.
 
 Below is the result of the analysis:
+
 ![image](https://user-images.githubusercontent.com/80076110/123806545-a9d5b500-d8b4-11eb-907a-457e4ef99b3c.png)
 
 The variables that provide a non-random variance amount to MPG values are, according to the above table, are vehicle length and ground clearance. Vehicle weight, spoiler angle and AWD indicate a random variance to MPG, on the other hand.
@@ -18,23 +19,29 @@ It appears the model does an accurate prediction on the MPG of MechaCar prototyp
 ## Summary Statistics on Suspension Coils
 
 The dataset shows that the total PSI variance is 62.29 vs the maximum amount of 100, which would meet the design specification. The total summary table below shows this:
+
 ![image](https://user-images.githubusercontent.com/80076110/123820834-80228b00-d8c0-11eb-8da5-54395ac8b2ad.png)
 
 However, when we break this down by manufacturing lot, we see that Lot 3 has a variance of 170, vs the much more accurate Lot 1 and Lot 2, at 0.97 and 7.47, respectively. This is shown in the Lot Summary table below:
+
 ![image](https://user-images.githubusercontent.com/80076110/123820879-8add2000-d8c0-11eb-8f66-9e8b8d7fd7b8.png)
 
 ## T-Test on Suspension Coils
 
 T-Test across each manufacturing lot looks like the below:
+
 ![image](https://user-images.githubusercontent.com/80076110/123821408-faeba600-d8c0-11eb-8141-de6c91fc51dd.png)
 
 T-Test on Lot 1:
+
 ![image](https://user-images.githubusercontent.com/80076110/123821872-63d31e00-d8c1-11eb-87d3-21a689213a74.png)
 
 T-Test on Lot 2:
+
 ![image](https://user-images.githubusercontent.com/80076110/123821959-7baaa200-d8c1-11eb-8a2e-7ebb36770dc7.png)
 
 T-Test on Lot 3:
+
 ![image](https://user-images.githubusercontent.com/80076110/123822064-8e24db80-d8c1-11eb-8836-ecf4418a5740.png)
 
 ## Study Design: MechaCar vs Competition
